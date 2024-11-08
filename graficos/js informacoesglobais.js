@@ -8,7 +8,7 @@ async function vizualizarInformacoesGlobais() {
     const horas = parseInt(dados.tempo_medio)
     const porcentagemConectada = ((pessoasConectadas / pessoasNoMundo) * 100).toFixed(2);
     const paragrafo = document.createElement('p')
-    paragrafo.classList.add(`graficos-container_texto')
+    paragrafo.ClassList.add(`graficos-container_texto')
     paragrafo.innerHTML = `Você sabia que o mundo tem <span>$(dados.total_pessoas_mundo)</span> de pessoas
     e que aproximadamente <span>$(dados.total_pessoas_conectadas)</span> estão conectadas em alguma
     rede social e passam em média <span>$(dados.tempo_ medio)</span> horas conectadas.
