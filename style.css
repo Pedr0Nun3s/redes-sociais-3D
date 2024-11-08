@@ -52,7 +52,7 @@ nav a:hover {
     
 .graficos-container texto {
     font-size: 1.3rem;
-    text-align: centers
+    text-align: centers;
     padding: 2rem;
     border: var(--secondary-color) solid 2px;
 }
@@ -64,7 +64,7 @@ span {
     
 footer {
     display: flex;
-    align-items: center:
+    align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     color: var(--bg-color);
